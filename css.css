@@ -1,0 +1,165 @@
+.container {
+  grid-auto-rows: minmax(10px, auto);
+  grid-template-columns: 200px auto 200px;
+ 
+}
+header
+{
+	
+	background-image: url(logo2.jpg);
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	 grid-row-gap: 10px;
+}
+.picture1 img
+{	
+	float: right;
+	  width: 300px;
+	height: 300px;
+}
+.pics img
+{
+
+   background: blue;
+   background-size: 100% 100%;
+  
+    transform: scale(0.7); 
+	transform: rotate(45deg);
+	    transform: skew(15deg, 15deg);
+		transform: matrix3d(0.583333, 0.186887, 0.79044, 0, -0.52022, 0.833333, 0.186887, 0, -0.623773, -0.52022, 0.583333, 0, 0, 0, 0, 1);
+}
+
+.logo img
+{
+	width: 350px;
+	height: 250px;
+}
+.main
+{
+	
+	grid-column: 2;
+  grid-row: 2 / 5;
+  grid-row-gap: 10px;
+  background: skyblue;
+}
+h1
+{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+}
+.button
+{
+	margin-top: 30px;
+	margin-left: 300px;
+}
+.btn
+{
+	border: 2px solid white;
+	padding: 10px 50px;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 50px;
+}
+.btn-one
+{
+  padding: 5px 5px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: green;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn-one:hover {background-color: #3e8e41}
+
+.btn-one:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+}
+.btn-two:hover
+{
+	background-color: darkorange;
+	transition: all 0.2s ease-in;
+}
+.picture img
+{
+	width: 900px;
+	height: 400px;
+}
+	h2
+{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+	.footer {
+  grid-column: 1/2;
+  grid-row: 4;
+  background: grey;
+ 
+}
+p 
+{
+	display: inline-block;
+	border: 1px solid white;
+	padding: 20px 500px;
+	font-size: 17px;
+	
+}
+.btn16
+{
+ padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: green;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+}
+.btn16:hover {background-color: #3e8e41}
+
+.btn16:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn17
+{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: green;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn17:hover {background-color: #3e8e41}
+
+.btn17:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
